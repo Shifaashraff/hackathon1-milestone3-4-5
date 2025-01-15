@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.resume{
+  border: 2px solid;
+  border-color: rgb(54, 54, 54);
+  background-color: lightgray;
+  max-height: 100%;
+  max-width: 100%;
+  margin-top: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.resume-holder{
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+
+.resume-top h1{
+  margin-top: 4%;
+  margin-bottom: 3%;
+  font-size: 40px;
+  font-weight: 300;
+  border: 5px solid;
+  border-radius: 2px;
+  border-bottom: 10px solid;
+  background-color: whitesmoke ;
+  color: rgb(54, 54, 54);
+  border-color: rgb(54, 54, 54);
+  border-top: 10px solid;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+
+}
+
+.resume-body ::placeholder{
+  border: 3px solid ;
+  border-color: rgb(54, 54, 54);
+  margin-top: 20px;
+  background-color: whitesmoke;
+}
+
+.resume-section1 input{
+  width: 40%;
+  padding: 3px;
+}
+
+.resume-body legend{
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.resume-body label{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.resume-section2 input{
+  width: 40%;
+  font-weight: 600;
+}
+
+.resume-section3 input{
+  width: 40%;
+}
+
+
+.resume-section4 input {
+  width: 40%;
+  padding: 3px;
+}
+
+.resume-body button{
+  font-size: 30px;
+  background-color: black;
+  border-radius: 3em;
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.resume-body button:hover{
+  background-color: rgb(57, 41, 71);
+}
+
+.generated-resume h2{
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 5%;
+  text-align: center;
+  color: rgb(44, 44, 44);
+
+}
+
+.generated-resume{
+  background-color: rgb(227, 222, 222);
+  max-height: 100%;
+  max-width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+} 
+
+.generated-resume h3{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.generated-resume p{
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.generated-resume ul{
+  font-size: 30px;
+  margin-top: 10px;
+  list-style-type: disc;
+  margin-left: 5%; 
+}
+
+.generated-resume button{
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 2em;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 20%;
+ 
+}
+
+.generated-resume button:hover{
+  background-color: rgb(57, 41, 71);
+}
+
+.generated-resume h1{
+  font-size: 35px;
+  font-style: italic;
+  font-weight: bold;
+  color: black
+}
